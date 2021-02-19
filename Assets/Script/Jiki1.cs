@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Math;
+using System;
 
 public class Jiki1 : MonoBehaviour
 {
@@ -32,9 +32,9 @@ public class Jiki1 : MonoBehaviour
         /*
         レベルアップしたら
         if (){
-        	level += 1
-        	power = Math.Pow(power, level)
-        	cost = Math.Pow(level, EXP)
+        	level += 1;
+        	power = Math.Pow(power, level);
+        	cost = Math.Pow(level, EXP);
         }
         */
         /*
